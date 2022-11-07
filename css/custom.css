@@ -1,0 +1,21 @@
+.custom-blog-background {
+	background: #ffffff url('../images/background_dif.jpg') !important;
+}
+
+.custom-typography-background {
+	background: #ffffff url('../images/08_f.jpg') !important;
+}
+
+.custom-features-background {
+	background: #ffffff url('../images/08_f.jpg') !important;
+}
+
+.mpcth-grid-item-back {
+	background: #026aa7;
+}
+.cat-design .mpcth-grid-item-back {
+	background: #026aa7;
+}
+.cat-photo .mpcth-grid-item-back {
+	background: #026aa7;
+}
