@@ -50,7 +50,7 @@ if(strlen($_POST['nome']))
 			</form>
 			<nav id="mpcth_menu">
 				<ul>
-					<li><a href="../default.htm">Home</a></li>
+					<li><a href="../index.html">Home</a></li>
 					<li><a href="sobre.html">Sobre</a></li>
 					<li><a href="contact.php">Contato</a></li>
 				</ul>

@@ -7,11 +7,11 @@ function sendMail($de,$para,$mensagem,$assunto)
     $mail->IsSMTP();
     try {
       $mail->SMTPAuth   = true;                 
-      $mail->Host       = 'br220.hostgator.com.br';     
-      $mail->Username   = 'falecom@fpereiramedia.com.br'; 
-      $mail->Password   = 'Parallelo19';
+      $mail->Host       = '';     
+      $mail->Username   = ''; 
+      $mail->Password   = '';
       $mail->AddAddress($para);
-	  $mail->AddReplyTo($de);
+	    $mail->AddReplyTo($de);
       $mail->SetFrom($de);
       $mail->Subject = $assunto;
       $mail->MsgHTML($mensagem);
